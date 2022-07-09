@@ -1,0 +1,31 @@
+{
+  "name": "webapp02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayani97/crudapp2.git"
+  },
+  "author": "Dayani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayani97/crudapp2/issues"
+  },
+  "homepage": "https://github.com/dayani97/crudapp2#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "pm2": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "rsync": "^0.6.1"
+  }
+}
